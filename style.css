@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(49, 155, 253);
+    color: white;
+}
+
+#marqueeStyle {
+    background-color: greenyellow;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-decoration: none;
+}
+
+#h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2 {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgb(121, 255, 244), 0 0 40px rgb(223, 118, 255), 0 0 50pxrgb(255, 142, 227)e, 0 0 60px rgb(253, 104, 153), 0 0 70px dodgerblue, 0 0 80px dodgerblue;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkblue, 0 0 40px darkblue, 0 0 50px darkblue, 0 0 60px darkblue, 0 0 70px darkblue;
+    }
+}
+
+#Contact {
+    text-align: center;
+}
+
+#vision {
+    color: white;
+    font-size: 14.5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: large;
+}
+
+hr {
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+#logo {
+    margin-top: -10px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 13.5px;
+    margin-left: 10px;
+}
+
+#myCarousel {
+    width: 95%;
+    height: 75%;
+}
+
+#link {
+    color: white;
+}
+
+#link:hover {
+    color: RGBA(255, 248, 255, 0.62);
+}
+
+#marc {
+    font-size: 18px;
+}
+
+#home {
+    font-size: 30px;
+}
+
+#icon {
+    color: #9E9E9E;
+}
+
+#icon:hover {
+    color: white;
+}
+
+#enrollment {
+    color: white;
+    text-decoration: underline;
+}
+
+#enrollment:hover {
+    color: RGBA(255, 248, 255, 0.62);
+    text-decoration: none;
+}
+
+#enroll {
+    line-height: 30px;
+}
+
+#principal {
+    margin-left: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: #ff7700
+}
+
+.environment_li {
+    margin-top: 13px;
+}
+
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 100px;
+}
+
+.p_modal {
+    color: black;
+}
+
+body {
+    text-align: center;
+}
